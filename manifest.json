@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Live filter of same comment",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/live_chat*"],
+            "all_frames": true,
+            "js": ["filter.js"]
+        }
+    ]
+}
